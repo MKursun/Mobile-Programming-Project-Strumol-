@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MakeUps">
+    <ScrollView>
+    <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+       
+        
+        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="White">
+            <Image HeightRequest="110" WidthRequest="110" Source="https://www.maccosmetics.com.tr/media/export/cms/products/280x320/mac_sku_SF87GX_280x320_0.jpg" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Mac - Straight Fire" HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53"/>
+        </StackLayout>
+        <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="White">
+            <Image HeightRequest="110" WidthRequest="110" Source="https://shop.goldenrose.com.tr/gr-infinity-lash-volumelength-mascara-maskara-golden-rose-960-85-K.jpg" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed2"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Golden Rose - Infınıty Lash Volume Mascara" HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53" />
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="0" BackgroundColor="White">
+            <Image HeightRequest="110" WidthRequest="110" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwAAVQLZeoUP3yc2L-YSUzI276TwvsYKET5_8e37zpAH89KzwGag" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed3"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Farmasi- Long Last Krem FArı(Orange Pop)" HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53" />
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="1" BackgroundColor="White">
+            <Image HeightRequest="110" WidthRequest="110" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz_Dt-h6FPumzoRcxF6FDirH9K9nOFXMuomMK1uRT2gN8-I0ay" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed4"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Huncalife - Şeftali Allık" HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53"/>
+        </StackLayout>
+        <StackLayout Grid.Row="2" Grid.Column="0" BackgroundColor="White">
+            <Image  HeightRequest="110" WidthRequest="110" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfCzPOw3gQJch6O5ty7ApkUmySe2KjWocUej0YCATcZ1vqGiYlsQ" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed5"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Nars-Pure Matte Lipstick (Bankok 3502) " HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53"/>
+        </StackLayout>
+        <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="White">
+            <Image  HeightRequest="110" WidthRequest="110" Source="https://mcdn.flormar.com.tr/UPLOAD/Flormar/mobile_image_1/thumb/0717012-002_small.jpg" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed6"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Flormar - Smoky Eyes Waterproof Göz Kalemi " HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53" />
+        </StackLayout>
+
+
+    </Grid>
+    </ScrollView>
+</ContentPage>

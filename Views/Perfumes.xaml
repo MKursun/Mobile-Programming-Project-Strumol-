@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Perfumes">
+    <ScrollView><Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="White">
+            <Image HeightRequest="110" WidthRequest="110" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzGaH4Vdn_FyeBDBHECYLUlWCx_ZOu3Z4EkSqv4q_R8ESkWEJ4Rg" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Oriflame- Volare Edp Bayan Parfüm"  HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53" />
+        </StackLayout>
+        <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="White">
+            <Image HeightRequest="110" WidthRequest="110" Source="https://mcdn01.gittigidiyor.net/40553/tn50/405534732_tn50_0.jpg?1547415771" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed2"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Oriflame - Elvie Edt" HorizontalOptions="Center" FontSize="Medium"  TextColor="#868b53"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="0" BackgroundColor="White">
+            <Image HeightRequest="110" WidthRequest="110" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqgxBiY057Lxg_mkfZ97ZdhGnUVIv_iAQ8DQc5ayqZgS0Io4o9tA" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed3"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Paco Robanne - Olympea" HorizontalOptions="Center" FontSize="Medium"  TextColor="#868b53"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="1" BackgroundColor="White">
+            <Image HeightRequest="110" WidthRequest="110" Source="https://mcdn01.gittigidiyor.net/40722/tn50/407221767_tn50_0.jpg?1547415923" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed4"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Oriflame - Eclat Homme" HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53" />
+        </StackLayout>
+        <StackLayout Grid.Row="2" Grid.Column="0" BackgroundColor="White">
+            <Image  HeightRequest="110" WidthRequest="110" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6VctN89kIZxG5u7zTUA8HRK0cfHbBeb4fuVhZMvG3PksML_Msqg" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed5"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Zara - Bright Rose" HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53" />
+        </StackLayout>
+        <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="White">
+            <Image  HeightRequest="110" WidthRequest="110" Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlckOJqX6pJVzMhkRU_3V-gDuNsf2bBU52JxmhfHPbOh228A7o" HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="Tabbed6"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="Dior - Suavege Edt Erkek Parfümü " HorizontalOptions="Center" FontSize="Medium" TextColor="#868b53"/>
+        </StackLayout>
+
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
